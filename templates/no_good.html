@@ -1,4 +1,16 @@
-<h3>{{feedback}}</h3> 
+<html>
+    <header>
+        <h1>Hmm...There Seem to Be Some Issues.</h1>
+    </header>
+    <body>
+        {% for key in feedback %}
+        <h3>{{key}}:</h3>
+            {% for val in feedback[key] %}
+            <li>{{val}}</li>
+            {% endfor %}
+        {% endfor %}
+        <p>Back to Upload Roster Data: </p>
+        <a href="/">Back</a>
+    </body>
+</html>
 
-<p>Back to Upload Roster Data: </p>
-<a href="/">Back</a>
