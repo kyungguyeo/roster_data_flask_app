@@ -30,7 +30,7 @@ olefile==0.44
 packaging==16.8
 pandas==0.18.0
 pbr==1.10.0
-Pillow==4.0.0
+Pillow==8.3.2
 py==1.4.32
 pyasn1==0.2.3
 pyasn1-modules==0.0.8
